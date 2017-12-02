@@ -1,0 +1,12 @@
+C:\Projects\CarsInventory\CI.Data\bin\CI.Data.dll.config
+C:\Projects\CarsInventory\CI.Data\bin\CI.Data.dll
+C:\Projects\CarsInventory\CI.Data\bin\CI.Data.pdb
+C:\Projects\CarsInventory\CI.Data\bin\CI.Business.dll
+C:\Projects\CarsInventory\CI.Data\bin\EntityFramework.dll
+C:\Projects\CarsInventory\CI.Data\bin\EntityFramework.SqlServer.dll
+C:\Projects\CarsInventory\CI.Data\bin\CI.Business.pdb
+C:\Projects\CarsInventory\CI.Data\bin\EntityFramework.xml
+C:\Projects\CarsInventory\CI.Data\bin\EntityFramework.SqlServer.xml
+C:\Projects\CarsInventory\CI.Data\obj\Release\CI.Data.csprojResolveAssemblyReference.cache
+C:\Projects\CarsInventory\CI.Data\obj\Release\CI.Data.dll
+C:\Projects\CarsInventory\CI.Data\obj\Release\CI.Data.pdb

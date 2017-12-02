@@ -1,0 +1,58 @@
+﻿@using (Html.BeginForm("AddCarpopup", "Home"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Add new car</h4>
+        <hr />
+       
+
+
+        <div class="form-group">
+            @Html.Label("Brand", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Brand", "", new { @class = "form-control", @required = "required" })
+             
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Model", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Model", "", new { @class = "form-control" ,@required = "required"} )
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Year",  new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Year",  "",new { @class = "form-control" ,@required = "required" } )
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Price",new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Price", "", new { @class = "form-control" ,@required = "required"  })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("New",  new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.CheckBox("New","")
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add Car" class="btn btn-default" />
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+}
